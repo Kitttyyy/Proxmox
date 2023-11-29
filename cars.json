@@ -41,6 +41,13 @@
       "model": "911",
       "production_year": 1963,
       "convertible": false
+    },
+    {
+      "id": 1,
+      "brand": "Lada",
+      "model": "Riva",
+      "production_year": 1980,
+      "convertible": false
     }
   ]
 }

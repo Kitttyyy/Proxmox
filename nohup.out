@@ -58,3 +58,79 @@ Traceback (most recent call last):
     self.socket.bind(self.server_address)
 OSError: [Errno 98] Address already in use
 127.0.0.1 - - [15/Nov/2023 09:04:01] "GET / HTTP/1.1" 200 -
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://localhost:3000/cars
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mPOST /cars/1 [33m404[0m 30.206 ms - 2[0m
+[0mPOST /cars/1 [33m404[0m 5.739 ms - 2[0m
+[0mPOST /cars [32m201[0m 9.235 ms - 102[0m
+Error: Insert failed, duplicate id
+    at Function.insert (/usr/local/lib/node_modules/json-server/node_modules/lodash-id/src/index.js:49:18)
+    at /usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:4430:28
+    at arrayReduce (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:697:21)
+    at baseWrapperValue (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:4429:14)
+    at LodashWrapper.wrapperValue (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:9114:14)
+    at create (/usr/local/lib/node_modules/json-server/lib/server/router/plural.js:216:48)
+    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:144:13)
+    at next (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:140:7)
+    at Route.dispatch (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:114:3)
+[0mPOST /cars [31m500[0m 7.431 ms - -[0m
+Error: Insert failed, duplicate id
+    at Function.insert (/usr/local/lib/node_modules/json-server/node_modules/lodash-id/src/index.js:49:18)
+    at /usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:4430:28
+    at arrayReduce (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:697:21)
+    at baseWrapperValue (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:4429:14)
+    at LodashWrapper.wrapperValue (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:9114:14)
+    at create (/usr/local/lib/node_modules/json-server/lib/server/router/plural.js:216:48)
+    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:144:13)
+    at next (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:140:7)
+    at Route.dispatch (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:114:3)
+[0mPOST /cars [31m500[0m 3.970 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/cars
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mGET /db [32m200[0m 12.437 ms - 981[0m
+[0mGET /__rules [33m404[0m 3.868 ms - 2[0m
+[0mGET /cars [32m200[0m 11.279 ms - 867[0m
+Error: Insert failed, duplicate id
+    at Function.insert (/usr/local/lib/node_modules/json-server/node_modules/lodash-id/src/index.js:49:18)
+    at /usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:4430:28
+    at arrayReduce (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:697:21)
+    at baseWrapperValue (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:4429:14)
+    at LodashWrapper.wrapperValue (/usr/local/lib/node_modules/json-server/node_modules/lodash/lodash.js:9114:14)
+    at create (/usr/local/lib/node_modules/json-server/lib/server/router/plural.js:216:48)
+    at Layer.handle [as handle_request] (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:144:13)
+    at next (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:140:7)
+    at Route.dispatch (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:114:3)
+[0mPOST /cars [31m500[0m 25.475 ms - -[0m
