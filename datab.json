@@ -1,0 +1,14 @@
+{
+  "databases": [
+    {
+      "id": 1,
+      "name": "Mariadb",
+      "type": "RDBMS"
+    },
+    {
+      "id": 3,
+      "name": "Neo4j",
+      "type": "Graph DB"
+    }
+  ]
+}

@@ -134,3 +134,330 @@ Error: Insert failed, duplicate id
     at next (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:140:7)
     at Route.dispatch (/usr/local/lib/node_modules/json-server/node_modules/express/lib/router/route.js:114:3)
 [0mPOST /cars [31m500[0m 25.475 ms - -[0m
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/cars
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+
+  \{^_^}/ hi!
+
+  Loading cars.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/cars
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Some error occurred Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1727:16)
+    at listenInCluster (node:net:1775:12)
+    at doListen (node:net:1924:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+[0mGET /adatb/ [33m404[0m 9.012 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Oops, datab.json doesn't seem to exist
+  Creating datab.json with some default data
+
+  Done
+
+  Resources
+  http://0.0.0.0:3000/posts
+  http://0.0.0.0:3000/comments
+  http://0.0.0.0:3000/profile
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Some error occurred Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1727:16)
+    at listenInCluster (node:net:1775:12)
+    at doListen (node:net:1924:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Some error occurred Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1727:16)
+    at listenInCluster (node:net:1775:12)
+    at doListen (node:net:1924:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Some error occurred Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1727:16)
+    at listenInCluster (node:net:1775:12)
+    at doListen (node:net:1924:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mPUT /adatb/1 [33m404[0m 27.960 ms - 2[0m
+[0mGET /adatb/ [33m404[0m 2.644 ms - 2[0m
+[0mDELETE /adatb/2 [33m404[0m 3.354 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Some error occurred Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1727:16)
+    at listenInCluster (node:net:1775:12)
+    at doListen (node:net:1924:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+[0mDELETE /adatb/2 [33m404[0m 3.807 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Some error occurred Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1727:16)
+    at listenInCluster (node:net:1775:12)
+    at doListen (node:net:1924:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+  Error reading /home/kitty/python/datab.json
+No data, empty input at 1:1
+
+^
+  Error reading /home/kitty/python/datab.json
+Unexpected token ':' at 2:16
+    "databases": [
+               ^
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+SyntaxError: Malformed JSON in file: datab.json
+Unexpected token : in JSON at position 11
+    at FileAsync.parse [as deserialize] (<anonymous>)
+    at /usr/local/lib/node_modules/json-server/node_modules/lowdb/adapters/FileAsync.js:41:35
+[0mDELETE /adatb/2 [33m404[0m 3.039 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+SyntaxError: Malformed JSON in file: datab.json
+Unexpected token : in JSON at position 11
+    at FileAsync.parse [as deserialize] (<anonymous>)
+    at /usr/local/lib/node_modules/json-server/node_modules/lowdb/adapters/FileAsync.js:41:35
+  Error reading /home/kitty/python/datab.json
+No data, empty input at 1:1
+
+^
+  Read error has been fixed :)
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mDELETE /adatb/2 [33m404[0m 19.210 ms - 2[0m
+[0mPUT /adatb/1 [33m404[0m 19.181 ms - 2[0m
+[0mPUT /adatb/1 [33m404[0m 3.760 ms - 2[0m
+[0mPUT /adatb/1 [33m404[0m 3.064 ms - 2[0m
+[0mPUT /adatb/1 [33m404[0m 3.105 ms - 2[0m
+[0mPUT /datab/1 [33m404[0m 2.889 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mPUT /datab/1 [33m404[0m 26.922 ms - 2[0m
+[0mDELETE /datab/2 [33m404[0m 4.394 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Some error occurred Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1727:16)
+    at listenInCluster (node:net:1775:12)
+    at doListen (node:net:1924:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+[0mPUT /datab/1 [33m404[0m 3.950 ms - 2[0m
+
+  \{^_^}/ hi!
+
+  Loading datab.json
+  Done
+
+  Resources
+  http://0.0.0.0:3000/databases
+
+  Home
+  http://0.0.0.0:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+Some error occurred Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1727:16)
+    at listenInCluster (node:net:1775:12)
+    at doListen (node:net:1924:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+[0mPUT /databases/1 [32m200[0m 8.917 ms - 53[0m
+[0mDELETE /databases/2 [32m200[0m 9.611 ms - 2[0m
